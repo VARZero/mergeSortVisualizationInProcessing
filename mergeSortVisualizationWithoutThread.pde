@@ -62,7 +62,7 @@ void setup() {
   
   divide(0, arr.length -  1);
   
-  // Variations initializing. #2
+  // Variables initializing. #2
   index = 0;
   l = lr[order[index]][0];
   r = lr[order[index]][1];
@@ -132,7 +132,7 @@ void draw() {
     // To go to next step.
     index++;
     
-    // Variations for next step. #2
+    // Variables for next step. #2
     if(index != arr.length) {
       l = lr[order[index]][0];
       r = lr[order[index]][1];
